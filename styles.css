@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1220;
+  color: #e6edf3;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 30px;
+  background: #111a2b;
+  border-bottom: 1px solid #1f2b3d;
+}
+
+header h1 {
+  margin-bottom: 5px;
+  color: #00e5ff;
+}
+
+/* KPI SECTION */
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: #111a2b;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #1f2b3d;
+}
+
+.card h2 {
+  color: #00e5ff;
+}
+
+/* CHARTS */
+.charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 0 40px 40px;
+}
+
+.chart-box {
+  background: #111a2b;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #1f2b3d;
+}
+
+canvas {
+  margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #8892a6;
+}
