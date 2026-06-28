@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Retail Analytics Dashboard</title>
+
+  <link rel="stylesheet" href="styles.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<header>
+  <h1>Retail Sales Analytics Dashboard</h1>
+  <p>Sample BI Project — Data Visualization & Insights</p>
+</header>
+
+<!-- KPI CARDS -->
+<section class="kpis">
+  <div class="card">
+    <h3>Total Revenue</h3>
+    <h2 id="revenue">0</h2>
+  </div>
+
+  <div class="card">
+    <h3>Total Orders</h3>
+    <h2 id="orders">0</h2>
+  </div>
+
+  <div class="card">
+    <h3>Growth Rate</h3>
+    <h2 id="growth">0%</h2>
+  </div>
+</section>
+
+<!-- CHARTS -->
+<section class="charts">
+
+  <div class="chart-box">
+    <h3>Monthly Sales Trend</h3>
+    <canvas id="lineChart"></canvas>
+  </div>
+
+  <div class="chart-box">
+    <h3>Category Performance</h3>
+    <canvas id="barChart"></canvas>
+  </div>
+
+</section>
+
+<footer>
+  <p>Sample project for portfolio — Built using HTML, CSS, JS, Chart.js</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="scripts.js"></script>
+
+</body>
+</html>
